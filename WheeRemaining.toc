@@ -1,6 +1,6 @@
-## Interface: 110107
+## Interface: 120000
 ## Title: WheeRemaining
-## Version: 2025.06.28
+## Version: 2026.01.20
 ## Notes: Prints lists of persistent buffs on alts
 ## Author: SpareSimian
 ## IconTexture: Interface\Icons\spell_misc_emotionhappy
