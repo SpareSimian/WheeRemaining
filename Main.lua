@@ -142,6 +142,7 @@ function addon:displayBuffTimers()
 end
 
 local function eventHandler(self, event, ...)
+   if InCombatLockdown() then return end -- don't query buffs in combat
    if "UNIT_AURA" == event then
       saveBuffs()
    end
